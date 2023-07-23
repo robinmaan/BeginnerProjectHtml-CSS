@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif
+}
+.header {
+    background-color: rgb(27, 39, 51);
+    height: 80px;
+    
+    
+}
+body{
+        background-image: url(https://images4.alphacoders.com/689/689597.jpg);
+        height: 100vh;
+      
+        background: cover;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+a{
+    color: #fff;
+    float: right;
+    font-size:20px;
+    text-decoration:none;
+    position: relative;
+    bottom: 70px;
+    margin: 10px;
+    padding-right: 50px;
+}
+.text{
+    color:#fff;
+    font-size: 2rem;
+    padding: 20px 20px;
+}
+
+
+.login{
+    height: 350px;
+    width:300px;
+    border-radius: 20px;
+    position: absolute;
+    right: 60%;
+    left: 40%;
+    top:200px;
+    color: #fff;
+    padding: 50px 50px;
+    background-color: #172a6f;
+    
+    transform: translateX(-40% -60%);
+}
+.btn{
+    position: absolute;
+    top:80%;
+    left:30%;
+    padding: 10px 10px;
+    width: 100px;
+    color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+    background-color: #172a6f;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login input{
+    background:transparent;
+    border: none;
+    background-color: rgb(196, 214, 229);
+    height:30px;
+    border-radius: 5px;
+}
+.search-bar{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    height:40px;
+    width:180px;
+    border:2px black;
+    border-radius: 20px;
+    padding:15px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.forget{
+    position: absolute;
+    top:270px;
+    left:130px;
+    font-size:10px;
+}
+.forget a{
+    font-size:10px;
+}
+.forget a:hover{
+    color:red;
+}
